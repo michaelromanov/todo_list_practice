@@ -78,3 +78,6 @@ function buildString(movie){
 movies.forEach(function(movie){
   console.log(buildString(movie));
 })
+//
+//
+ 
