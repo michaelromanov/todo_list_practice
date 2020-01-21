@@ -15,3 +15,5 @@ var li = document.querySelector("li a.special");
 //Query SelectorAll - returns all matching elements;
 var tags = document.querySelectorAll('h1');
 var tags = documnet.querySelectorAll(".bolded");
+
+//
