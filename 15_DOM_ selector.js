@@ -16,4 +16,3 @@ var li = document.querySelector("li a.special");
 var tags = document.querySelectorAll('h1');
 var tags = documnet.querySelectorAll(".bolded");
 
-//
