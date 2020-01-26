@@ -78,8 +78,10 @@ tag.innerHTML
 //This is an <strong>awesome</strong> paragraph
 var ul = document.querySelector("ul");
 document.querySelector("h1").textContent = "End of this lesson";
-documnet.body.textContent = "<h1>Goodbye</h1>";
-documnet.body.innerHTML = "<h1>Goodbye</h1>";
+document.body.textContent = "<h1>Goodbye</h1>";
+document.body.innerHTML = "<h1>Goodbye</h1>";
+
+//
 
 
 
