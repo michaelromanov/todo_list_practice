@@ -96,6 +96,9 @@ var img = document.querySelector("img");
 img.setAttribute("src", "corgi.png");
 //<img src="corgi.png">
 
+var a = document.querySelector("a");
+a.setAttribute("href", "http://www.corgis.com");
+a.textContent = "Link to corgi.com";
 
 
 
