@@ -44,7 +44,9 @@ p2Button.addEventListener("click", function(){
 
 resetButton.addEventListener("click", function(){
   //alert("Michael clicked the reset button!");
+  //Reset all pScores
   p1Score = 0;
   p2Score = 0;
+
 });
 
