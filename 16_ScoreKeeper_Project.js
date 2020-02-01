@@ -47,8 +47,20 @@ p2Button.addEventListener("click", function(){
 });
 
 resetButton.addEventListener("click", function(){
-  //alert("Michael clicked the reset button!");
-  //Reset all pScores
+  reset();
+  // //alert("Michael clicked the reset button!");
+  // //Reset all pScores
+  // p1Score = 0;
+  // p2Score = 0;
+  // p1Display.textContent = p1Score;
+  // p2Display.textContent = p2Score;
+  // p1Display.classList.remove("winner");
+  // p2Display.classList.remove("winner");
+  // gameOver = false;
+  // //alert("Reset Activated!");
+});
+
+function reset(){
   p1Score = 0;
   p2Score = 0;
   p1Display.textContent = p1Score;
@@ -56,12 +68,14 @@ resetButton.addEventListener("click", function(){
   p1Display.classList.remove("winner");
   p2Display.classList.remove("winner");
   gameOver = false;
-  alert("Reset Activated!");
-});
+  
+  //alert("Reset Activated!");
+}
 
 numInput.addEventListener("change", function(){
   winningScoreDisplay.textContent = numInput.value;
-  winningScore = numInput.value;
+  winningScore = Number(numInput.value);
+  reset();
 })
 
  
