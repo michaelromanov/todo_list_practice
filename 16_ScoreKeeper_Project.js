@@ -1,4 +1,4 @@
-//alert("Connected to the html!");
+// alert("Connected to the html!");
 
 var p1Button = document.querySelector("#p1");
 var p2Button = document.querySelector("#p2");
@@ -9,7 +9,7 @@ var p2Display = document.querySelector("#p2Display");
 var p1Score = 0;
 var p2Score = 0; 
 var gameOver = false;
-var winngingScore = 5;
+var winningScore = 5;
 
 p1Button.addEventListener("click", function(){
   if(!gameOver){
@@ -47,6 +47,7 @@ resetButton.addEventListener("click", function(){
   //Reset all pScores
   p1Score = 0;
   p2Score = 0;
-
+  p1Display.textContent = p1Score;
+  p2Display.textContent = p2Score;
 });
 
